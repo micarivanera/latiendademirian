@@ -63,7 +63,7 @@ h1, h3 {
 
 .producto {
   text-align: center;
-  margin: 0.5vw; /*vw en vez de pixeles ,Esto permitirá que los elementos se ajusten proporcionalmente al tamaño de la pantalla */
+  margin: 1vw; /*vw en vez de pixeles ,Esto permitirá que los elementos se ajusten proporcionalmente al tamaño de la pantalla */
   border: 0.5vw;
   border-style: solid;
   border-color: palevioletred;
