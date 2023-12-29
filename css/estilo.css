@@ -3,34 +3,31 @@ body {
   
 }
 
-h1{
-  text-align: center; /*se utiliza para alinear el texto dentro de un elemento en el centro del contenedor.*/
-  margin-left: auto; /*tiene el efecto de centrar ese elemento horizontalmente dentro de su contenedor.*/
-  margin-right: auto; /*Cuando aplicas margin-left: auto; y margin-right: auto; al mismo elemento, le estás diciendo al navegador que distribuya automáticamente el espacio disponible en ambos lados del elemento de manera equitativa, logrando así el centrado horizontal*/
-  position: center;
+h1 {
+  text-align: center;
+  margin: auto;
   background-color: #d4299e;
-  color: rgb(255, 255, 0);
+  color: #fff;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  width: 100%; /* */
-  height: 5vw;
-  background-color: rgb(225, 0, 255);
-  transition-property: width, background-color;
-  transition-duration: 1s; /* Duración de la transición en segundos */
-  font-size: 2em;
-
-    /* Centrado horizontal y vertical */
+  font-weight: bold;
+  padding: 20px;
+  transition: background-color 0.5s ease-in-out;
+  font-size: 3em; /* Aumenté el tamaño del texto para más impacto */
   display: flex;
   justify-content: center;
   align-items: center;
-  }
-  
-  h1:hover {
-    width: 100%; /*vw en vez de pixeles ,Esto permitirá que los elementos se ajusten proporcionalmente al tamaño de la pantalla */
-    background-color: rgb(255, 251, 0);
-    color: black;
-    text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Añadí una transición de color de texto para una animación más suave */
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
 
-  }
+h1:hover {
+  background-color: #ffcccb; /* Cambié el tono del rosa claro para un aspecto más cálido */
+  color: #333; /* Cambié el color de texto a un tono más oscuro para mejorar el contraste */
+}
+
 
 h3{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
