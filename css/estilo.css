@@ -35,6 +35,36 @@ h3{
 h1, h3 {
   margin: 5;
 }
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 20px 0;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+}
+
+h3 u {
+  text-decoration: none;
+  color: #d4299e;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-transform: uppercase; /* Convertí el nombre propio a mayúsculas */
+}
+
+h3::before {
+  content: '\2014 \00A0';
+  color: #d4299e;
+  font-size: 1.7em;
+}
+
+h3::after {
+  content: '\00A0 \2014'; /* Agregué otro guion al final del texto */
+  color: #d4299e;
+  font-size: 1.7em;
+}
+
+
+
 
 .imagenes {
   display: flex;
