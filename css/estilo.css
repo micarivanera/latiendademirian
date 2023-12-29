@@ -101,9 +101,9 @@ h3::after {
   
 }
 
-.producto:hover{
+.producto:hover {
   text-align: center;
-  margin: -2.5%; /*vw en vez de pixeles ,Esto permitirá que los elementos se ajusten proporcionalmente al tamaño de la pantalla */
+  margin: -2.5% 1.5%; /* Ajusté los márgenes para un efecto más dinámico */
   margin-bottom: 5%;
   border: 0.5vw;
   border-style: solid;
@@ -111,7 +111,6 @@ h3::after {
   transition-property: all;
   transition-duration: 1s;
   color: rgb(6, 255, 31);
-
 }
 
 
@@ -120,11 +119,11 @@ h3::after {
 
 .precio {
   font-weight: bold;
-  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  ;
-
-  }
+  background-color: #f8f8f8; /* Fondo para destacar el precio */
+  padding: 5px; /* Espaciado dentro del precio */
+  transition: background-color 0.5s, color 0.5s; /* Transición para el fondo y el color al hacer hover */
+}
   
 
 
@@ -158,13 +157,12 @@ a img{
   margin: 0.5vw;
 }
 
-.whatsapp img{
-  width: 8vw;
-  height: 8vw;
+.whatsapp img {
+  width: 10%; /* Ajusté el tamaño del enlace de WhatsApp para hacerlo más proporcional */
+  height: auto;
   transition: transform 0.5s;
 }
 
-.whatsapp img:hover{
+.whatsapp img:hover {
   transform: scale(1.2);
-
 }
