@@ -164,6 +164,7 @@ a img{
   padding: 10px; /* Añade espacio alrededor del texto */
   border-radius: 8px; /* Bordes redondeados */
   margin: 0; /* Elimina el margen del párrafo para evitar espacio adicional */
+  font-size: 1.2em;
 }
 
 .whatsapp img {
