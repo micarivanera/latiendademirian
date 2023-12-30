@@ -20,8 +20,9 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* Añadí una transición de color de texto para una animación más suave */
-  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out; /* Aseguré que las transiciones no se sobrescriban */
 }
+
 
 h1:hover {
   background-color: #ffcccb; /* Cambié el tono del rosa claro para un aspecto más cálido */
@@ -88,18 +89,22 @@ h3::after {
   
 }*/
 
+/* Añade un comentario para explicar la razón detrás de esta regla de estilo */
 .producto {
   text-align: center;
-  margin: 1vw; /*vw en vez de pixeles ,Esto permitirá que los elementos se ajusten proporcionalmente al tamaño de la pantalla */
+  margin: 1vw;
   border: 0.5vw;
   border-style: solid;
   border-color: palevioletred;
+  border-radius: 10px; /* Añadí bordes redondeados */
   transition-property: all;
   transition-duration: 1s;
-  
-  
-  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajusté la sombra para que sea más pronunciada */
 }
+
+
+
+
 
 
 
@@ -145,17 +150,35 @@ a img{
   transition: transform 0.5s;
 }
 
+/* Estilo con fondo y bordes redondeados */
+.whatsapp {
+  display: flex; /* Utiliza flexbox para alinear los elementos en línea */
+  align-items: center; /* Centra verticalmente los elementos en el contenedor */
+  justify-content: center; /* Centra horizontalmente los elementos en el contenedor */
+  margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
+}
+
 .whatsapp p {
-  margin: 0.5vw;
+  background-color: #d4299e; /* Cambia el color de fondo según tu paleta de colores */
+  color: white; /* Color del texto */
+  padding: 10px; /* Añade espacio alrededor del texto */
+  border-radius: 8px; /* Bordes redondeados */
+  margin: 0; /* Elimina el margen del párrafo para evitar espacio adicional */
 }
 
 .whatsapp img {
-  width: 10%;
+  width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
   height: auto;
   transition: transform 0.5s, filter 0.5s;
+  margin-left: 5px; /* Añade espacio entre la imagen y el párrafo */
 }
 
 .whatsapp img:hover {
   transform: scale(1.2);
   filter: brightness(1.1);
 }
+
+
+}
+
+  
