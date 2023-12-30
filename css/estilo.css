@@ -3,6 +3,21 @@ body {
   
 }
 
+/* Estilos generales para todas las pantallas */
+body {
+  font-size: 16px; /* Tamaño de fuente predeterminado */
+}
+
+/* Estilos específicos para pantallas más pequeñas, como las de los dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Reduzco el tamaño de la fuente para pantallas más pequeñas */
+  }
+
+  /* Otros estilos específicos para pantallas más pequeñas */
+}
+
+
 h1 {
   text-align: center;
   margin: auto;
