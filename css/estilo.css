@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  margin: 10;
   
 }
 
@@ -105,24 +106,17 @@ h3::after {
 }*/
 
 /* Añade un comentario para explicar la razón detrás de esta regla de estilo */
-.producto {
+
+.cuadradoProducto {
   text-align: center;
-  margin: 1vw;
+  margin: 10px;
+  padding: 10px; /* Ajusta el relleno según tus necesidades */
   border: 0.5vw;
   border-style: solid;
-  border-color: palevioletred;
-  border-radius: 10px; /* Añadí bordes redondeados */
-  transition-property: all;
-  transition-duration: 1s;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajusté la sombra para que sea más pronunciada */
+  border-color: rgb(255, 82, 186);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
-
-
-
 
 
 
@@ -130,9 +124,11 @@ h3::after {
 .precio {
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #f8f8f8;
+  background-color: #840ab4;
   padding: 5px;
   transition: background-color 0.5s, color 0.5s;
+  font-size: 20px;
+  color: #fff;
 }
 
   
@@ -196,5 +192,7 @@ a img{
 
 
 }
+
+
 
   
