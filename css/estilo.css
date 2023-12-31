@@ -120,8 +120,8 @@ h3::after {
 }
 
 .imagenes img{
-  width: 27vw;
-  height: 27vw;
+  width: 30vw;
+  height: 30vw;
   transition: transform 0.5s;
 }
 
