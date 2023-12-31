@@ -1,3 +1,30 @@
+nav {
+  background-color: #fd9edf;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
 body {
   text-align: center;
   margin: 10;
@@ -85,27 +112,18 @@ h3::after {
 
 .imagenes {
   display: flex;
-  justify-content: space-around; /* Opcional: ajusta según tus preferencias */
+  justify-content:space-evenly; /* Opcional: ajusta según tus preferencias */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition-property: all;
   transition-duration: 1s;
   
 }
 
-/*.imagenes:hover{
-
-  display: flex;
-  text-align: center;
-  margin: 6px;
-  border: 4px;
-  border-width: 0.5em;
-  
-  
-
-  
-}*/
-
-/* Añade un comentario para explicar la razón detrás de esta regla de estilo */
+.imagenes img{
+  width: 27vw;
+  height: 27vw;
+  transition: transform 0.5s;
+}
 
 .cuadradoProducto {
   text-align: center;
@@ -135,10 +153,6 @@ h3::after {
 
 
 
-.imagenes img{
-  width: 20vw;
-  height: 20vw;
-  transition: transform 0.5s;
 
   
 }
@@ -191,7 +205,7 @@ a img{
 }
 
 
-}
+
 
 
 
