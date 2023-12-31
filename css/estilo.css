@@ -128,7 +128,7 @@ h3::after {
 /* Aplicar estilos específicos para pantallas más pequeñas, como dispositivos móviles */
 @media only screen and (max-width: 600px) {
   .imagenes img {
-    width: 50vw; /* Cambia el tamaño a un porcentaje más grande del ancho de la ventana */
+    width: 80vw; /* Cambia el tamaño a un porcentaje más grande del ancho de la ventana */
     height: auto; /* Autoajusta la altura para mantener la proporción original */
   }
 }
