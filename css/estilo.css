@@ -119,10 +119,18 @@ h3::after {
   
 }
 
-.imagenes img{
-  width: 30vw;
-  height: 30vw;
+.imagenes img {
+  width: 20vw;
+  height: 20vw;
   transition: transform 0.5s;
+}
+
+/* Aplicar estilos específicos para pantallas más pequeñas, como dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  .imagenes img {
+    width: 50vw; /* Cambia el tamaño a un porcentaje más grande del ancho de la ventana */
+    height: auto; /* Autoajusta la altura para mantener la proporción original */
+  }
 }
 
 .cuadradoProducto {
