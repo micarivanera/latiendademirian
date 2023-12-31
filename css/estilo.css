@@ -67,10 +67,10 @@ h1 {
 }
 
 
-h1:hover {
+/*h1:hover {
   background-color: #ffcccb; /* Cambié el tono del rosa claro para un aspecto más cálido */
-  color: #333; /* Cambié el color de texto a un tono más oscuro para mejorar el contraste */
-}
+  /*color: #333; /* Cambié el color de texto a un tono más oscuro para mejorar el contraste */
+/*}*/ 
 
 
 h3{
